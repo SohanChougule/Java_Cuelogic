@@ -1,0 +1,37 @@
+package defaultInInterfaceDemo;
+
+interface DefaultInterface{
+	void add();
+	default void printHi() {
+		System.out.println("Hi !! from interface DefaultInterface method printHi()");
+	}
+}
+
+//interface DefaultInterface{
+//	void add();
+//	default void printHi() {
+//		System.out.println("Hi !! from interface DefaultInterface method printHi()");
+//	}
+//}
+
+
+class SayHello implements DefaultInterface{
+
+	@Override
+	public void add() {
+		// TODO Auto-generated method stub
+		System.out.println("Addition method from SayHello class");
+	}
+	
+}
+
+public class DefaultInInterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SayHello s = new SayHello();
+		s.add();
+		s.printHi();
+	}
+
+}

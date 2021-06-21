@@ -1,0 +1,18 @@
+package StreamsDemo;
+
+import java.util.*;
+import java.util.stream.Stream;
+
+public class NewStream {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Collection<String> collection = Arrays.asList("a", "b", "c");
+		Stream<String> streamOfCollection = collection.stream();
+		
+		System.out.println(streamOfCollection);
+		
+	}
+
+}

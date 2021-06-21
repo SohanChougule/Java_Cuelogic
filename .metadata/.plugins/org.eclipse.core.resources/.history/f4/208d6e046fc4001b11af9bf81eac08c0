@@ -1,0 +1,17 @@
+package defaultInInterfaceDemo;
+
+interface DefaultInterface{
+	void add();
+	default void printHi() {
+		System.out.println("Hi !! from interface method printHi()");
+	}
+}
+
+public class DefaultInInterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

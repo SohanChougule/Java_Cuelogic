@@ -1,0 +1,14 @@
+package stringClassNewFeatures;
+
+public class NewMethods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "abc";
+		System.out.println("s is blank = "+s.isBlank());
+		System.out.println("s is empty = "+s.isEmpty());
+		
+	}
+
+}

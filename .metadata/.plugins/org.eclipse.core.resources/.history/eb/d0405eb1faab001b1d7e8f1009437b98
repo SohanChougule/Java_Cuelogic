@@ -1,0 +1,31 @@
+package codes;
+
+
+class InDemo{
+	static int demo;
+	static{
+		demo = 100;
+		System.out.println("Static Block");
+	}
+
+	{
+		System.out.println("Instance block");
+	}
+	
+	InDemo(){
+		System.out.println("Default constructor");
+	}
+	
+}
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		InDemo obj = new InDemo();
+		System.out.println(InDemo.demo);
+
+	}
+
+}

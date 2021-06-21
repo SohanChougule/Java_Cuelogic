@@ -1,0 +1,14 @@
+package lambdaParameters;
+
+import java.util.ArrayList;
+
+public class LambdaParameters {
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+
+}

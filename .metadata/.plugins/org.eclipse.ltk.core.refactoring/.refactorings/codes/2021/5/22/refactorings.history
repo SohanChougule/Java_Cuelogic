@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;inheritanceDemo.MountainBIcycle&apos; to &apos;MountainBicycle&apos;&#x0D;&#x0A;- Original project: &apos;codes&apos;&#x0D;&#x0A;- Original element: &apos;inheritanceDemo.MountainBIcycle&apos;&#x0D;&#x0A;- Renamed element: &apos;inheritanceDemo.MountainBicycle&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MountainBIcycle&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;inheritanceDemo{MountainBIcycle.java[MountainBIcycle" matchStrategy="1" name="MountainBicycle" qualified="false" references="true" similarDeclarations="false" stamp="1621832847894" textual="false" version="1.0"/>
+</session>
