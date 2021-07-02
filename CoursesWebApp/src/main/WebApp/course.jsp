@@ -3,13 +3,12 @@
 <html>
 <head>
 <meta charset="ISO-88-59-1">
-<title>Insert title here</title>
+<title>Web Page</title>
 </head>
 <body>
 Top selling courses are :
 <ol>
-<li>Python</li>
-<li>Java</li>
+${cname}
 </ol>
 </body>
 </html>
