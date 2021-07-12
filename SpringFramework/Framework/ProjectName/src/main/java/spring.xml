@@ -8,14 +8,19 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
         
+        
         <bean id="Vehicle" class="com.maven.ProjectName.Car"></bean> 
+        
+        
         <bean id="Tyre" class="com.maven.ProjectName.Tyre">
+        
       <!--   	<property name="brand" value="MRF"></property> -->
+      
         	<constructor-arg value="Ceat"></constructor-arg>
         </bean> 
         
         <bean id="Seat" class="com.maven.ProjectName.Seat"></bean>
         
-        <context:component-scan base-package="com.maven.ProjectName"></context:component-scan>
+       <context:component-scan base-package="com.maven.ProjectName"></context:component-scan>
 
 </beans>

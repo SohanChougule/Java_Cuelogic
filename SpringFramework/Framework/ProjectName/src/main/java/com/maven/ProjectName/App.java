@@ -23,6 +23,7 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
         
         System.out.println("by xml file");
+        
         Vehicle obj1  = (Vehicle) context.getBean("Vehicle");
         obj1.drive();
         
