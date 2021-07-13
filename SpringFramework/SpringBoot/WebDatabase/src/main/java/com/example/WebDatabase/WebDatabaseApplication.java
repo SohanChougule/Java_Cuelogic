@@ -1,19 +1,20 @@
-package com.example.SubmissionForms;
+package com.example.WebDatabase;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+
 
 @SpringBootApplication
-public class SubmissionFormsApplication extends SpringBootServletInitializer{
+public class WebDatabaseApplication {
 
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SubmissionFormsApplication.class);
+		return application.sources(WebDatabaseApplication.class);
 	}
 	
 	public static void main(String[] args) {
-		SpringApplication.run(SubmissionFormsApplication.class, args);
+		SpringApplication.run(WebDatabaseApplication.class, args);
 	}
 
 }

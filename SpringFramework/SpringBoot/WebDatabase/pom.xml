@@ -9,15 +9,15 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>SubmissionForms</artifactId>
+	<artifactId>WebDatabase</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SubmissionForms</name>
+	<name>WebDatabase</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
-		<dependency>
+	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
@@ -51,6 +51,10 @@
 		    <artifactId>tomcat-jasper</artifactId>
 		    <version>9.0.48</version>
 		</dependency>
+		<dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>jstl</artifactId>
+    </dependency>		
 	</dependencies>
 
 	<build>
